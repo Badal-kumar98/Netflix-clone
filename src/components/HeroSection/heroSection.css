@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.herosection {
+  background: linear-gradient(80deg, black, transparent),
+    url("../../assets/image/IN-en-20250120-TRIFECTA-perspective_860a95da-c386-446e-af83-fef8ddd80803_large.jpg");
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+.heroheader {
+  text-align: center;
+  padding-top: 6%;
+}
+
+.heroheading {
+  font-size: 3.5rem;
+}
+
+.heroheading2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+.heropara {
+  padding-top: 30px;
+  font-size: 1rem;
+}
+
+.herocontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 20px;
+}
+
+.hero-input {
+  background-color: #1d1e1e;
+  color: white;
+  font-size: 1.125rem;
+  padding: 0.75rem 0.75rem;
+  width: 20rem;
+  border-radius: 0.375rem;
+  opacity: 0.8;
+  border: 1px solid #d1d5db;
+  transition: all 0.3s ease;
+}
+
+.hero-input:focus {
+  outline: none;
+  border: 1px solid #f9fafb;
+  box-shadow: 0 0 0 1px #f9fafb;
+}
+
+.hero-submit-button {
+  background-color: #e50815;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.3rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-submit-button:hover {
+  background-color: #d40612;
+}
+
+.hero-button-text {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.hero-button-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  fill: white;
+}
+
+.hero-line {
+  width: 100%;
+  border: none;
+  height: 5px;
+  background: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
+}

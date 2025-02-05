@@ -1,0 +1,27 @@
+.home-container {
+    background-color: #161a1d;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.faq-heading {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 110px;
+}
+
+.home-serches {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.home-input {
+    width: 50%;
+    padding: 15px 20px;
+    color: white;
+}
+
+.home-button-text {
+    padding: 4px 15px;
+}
